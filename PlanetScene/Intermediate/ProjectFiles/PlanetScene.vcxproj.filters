@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PlanetScene.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8907B083-4A3D-4E27-A260-9CB0398A1DD4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PlanetScene.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PlanetSceneEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\FootstepsSoundV2.png" />
+    <None Include="..\..\ParticleToolkitVol1.png" />
+    <None Include="..\..\PlanetScene.png" />
+    <None Include="..\..\PN_OpenWorldFoliage.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{0DB2B653-0655-49F3-B6DD-69568CC0929D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PlanetScene">
+      <UniqueIdentifier>{29BE0F2D-DBC6-4A1B-B7AC-58C8B00EBE32}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PlanetScene\PlanetScene.Build.cs">
+      <Filter>Source\PlanetScene</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PlanetScene\PlanetScene.cpp">
+      <Filter>Source\PlanetScene</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlanetScene\PlanetScene.h">
+      <Filter>Source\PlanetScene</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PlanetScene\PlanetScene_Utilities.cpp">
+      <Filter>Source\PlanetScene</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PlanetScene\PlanetScene_Utilities.h">
+      <Filter>Source\PlanetScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
